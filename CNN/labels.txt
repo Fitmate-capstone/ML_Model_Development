@@ -1,0 +1,5 @@
+0 Bench Press
+1 Dumbells
+2 Elliptical_Machine
+3 Recumbent_Bike
+4 Smith_Machine
