@@ -5,7 +5,7 @@ we create two sophicated model
 
 # Replication Steps
 1. Clone this repository:
-   git clone https://github.com/Fitmate-capstone/ML_Model_Development
+   git clone https://github.com/Fitmate-capstone/ML_Model_Development.git
 2. Navigate to the project directory
 
 ## Team Member 
