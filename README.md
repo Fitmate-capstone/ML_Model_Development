@@ -1,4 +1,4 @@
-## ML_Model_Development
+## Fitmate ML Model Development
 we create two sophicated model
 1. CNN Model (Tensorflow)
 2. Pose Classification
