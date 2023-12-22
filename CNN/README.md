@@ -52,4 +52,6 @@ Kaggle
 2. Training: Execute the script to train the model
 3. Model Saving: The trained model will be saved as model.h5.
 
+![Example](https://ik.imagekit.io/RifqiLukmansyah/download%20(7).png?updatedAt=1703210848214)
+
 
