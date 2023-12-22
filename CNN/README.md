@@ -1,7 +1,9 @@
 ## CNN Model 
 # Replication Steps
 1. Clone this repository:
-   git clone https://github.com/Fitmate-capstone/ML_Model_Development/tree/main
+```
+   git clone https://github.com/Fitmate-capstone/ML_Model_Development.git
+```
 2. Navigate to the project directory
 3. Place your gym equipment images datasets in the specified directory.
 4. Run the Python script for training and evaluation.
@@ -28,7 +30,7 @@ Google Colab Notebook
 !pip install numpy pandas scikit-learn tensorflow matplotlib
 
 ```
-Google Colab Notebook
+Kaggle
 1. Requirements: Access to a Kaggle Notebook environment.
 2. Library Installation: Execute the following command in a code cell if additional libraries are needed:
 ```
