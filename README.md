@@ -3,6 +3,10 @@ we create two sophicated model
 1. CNN Model (Tensorflow)
 2. Pose Classification
 
+# Replication Steps
+1. Clone this repository:
+   git clone https://github.com/Fitmate-capstone/ML_Model_Development/tree/main
+2. Navigate to the project directory
 
 ## Team Member 
 | Bangkit ID | Name | Learning Path | University |LinkedIn |
