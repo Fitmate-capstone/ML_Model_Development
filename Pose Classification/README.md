@@ -60,8 +60,10 @@ Kaggle
 # Notes
 1. For Google Colab and Kaggle, some libraries might already be pre-installed in the environment.
 2. Ensure the installation commands are run before importing or using the libraries in your code cells.
-
-# Data Preparation
+# Pose classification and repetition counting with the k-NN algorithm
+Building a pose classifier that recognizes specific fitness poses and counts repetitions. In this section we describe how we built a custom pose classifier using the MediaPipe. To recognize poses we use the k-nearest neighbors algorithm (k-NN) because it's simple and easy to start with. The algorithm determines the object's class based on the closest samples in the training set.
+# 1. Data Preparation
+We collected image samples of the target exercises from various sources. We chose a few hundred images for each exercise, such as Push up and Deadlift. It's important to collect samples that cover different camera angles, environment conditions, body shapes, and exercise variations.
 Required image in folder (same use for image out folder):
       Push_Up/
         image_001.jpg
@@ -74,3 +76,16 @@ Required image in folder (same use for image out folder):
       ...
 
 After organizing the images, zip the folder and name it `fitness_poses_images_in.zip`.
+# 2. Run pose detection on the sample images
+This produces a set of pose landmarks to be used for training. We are not interested in the pose detection itself, since we will be training our own model in the next step.
+
+The k-NN algorithm we've chosen for custom pose classification requires a feature vector representation for each sample and a metric to compute the distance between two vectors to find the target nearest to the pose sample. This means we must convert the pose landmarks we just obtained.
+
+To convert pose landmarks to a feature vector, we use the pairwise distances between predefined lists of pose joints, such as the distance between wrist and shoulder, ankle and hip, and left and right wrists. Since the scale of images can vary, we normalized the poses to have the same torso size and vertical torso orientation before converting the landmarks.
+
+# 3. Train the model and count repetitions
+We used the MediaPipe to access the code for the classifier and train the model.
+
+To count repetitions, we used another Colab algorithm to monitor the probability threshold of a target pose position.4
+
+<iframe width="560" height="315" src="https://imagekit.io/player/embed/RifqiLukmansyah/pushups-sample-out%20(2).mp4?thumbnail=https%3A%2F%2Fik.imagekit.io%2FRifqiLukmansyah%2Fpushups-sample-out%2520%282%29.mp4%2Fik-thumbnail.jpg&updatedAt=1703210317710" title="ImageKit video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"> </iframe>
