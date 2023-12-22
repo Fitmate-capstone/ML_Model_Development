@@ -86,6 +86,7 @@ To convert pose landmarks to a feature vector, we use the pairwise distances bet
 # 3. Train the model and count repetitions
 We used the MediaPipe to access the code for the classifier and train the model.
 
-To count repetitions, we used another Colab algorithm to monitor the probability threshold of a target pose position.4
+To count repetitions, we used another Colab algorithm to monitor the probability threshold of a target pose position.
 
-![Example](https://ik.imagekit.io/RifqiLukmansyah/pushups-sample-out%20(2).mp4?updatedAt=1703210317710)
+# 4. Result
+The Colab above produces a CSV file that you can populate with all of your pose samples.
