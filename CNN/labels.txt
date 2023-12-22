@@ -1,4 +1,4 @@
-0 Bench Press
+0 Barbells
 1 Dumbells
 2 Elliptical_Machine
 3 Recumbent_Bike
