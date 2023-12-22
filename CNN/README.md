@@ -1,4 +1,11 @@
 ## CNN Model 
+# Replication Steps
+1. Clone this repository:
+   git clone https://github.com/Fitmate-capstone/ML_Model_Development/tree/main
+2. Navigate to the project directory
+3. Place your gym equipment images datasets in the specified directory.
+4. Run the Python script for training and evaluation.
+
 # Required Libraries
 The necessary libraries for running the gym equipment image classifier script are:
 1. numpy
@@ -30,6 +37,7 @@ Google Colab Notebook
 # Notes
 1. For Google Colab and Kaggle, some libraries might already be pre-installed in the environment.
 2. Ensure the installation commands are run before importing or using the libraries in your code cells.
+
 # Usage
 
 # Data Preparation
@@ -41,10 +49,4 @@ Google Colab Notebook
 2. Training: Execute the script to train the model
 3. Model Saving: The trained model will be saved as model.h5.
 
-# Replication Steps
-1. Clone this repository:
-   git clone https://github.com/Fitmate-capstone/ML_Model_Development/tree/main
-2. Navigate to the project directory
-3. Place your gym equipment images datasets in the specified directory.
-4. Run the Python script for training and evaluation.
 
