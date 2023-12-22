@@ -52,6 +52,10 @@ Kaggle
 2. Training: Execute the script to train the model
 3. Model Saving: The trained model will be saved as model.h5.
 
-![Example](https://ik.imagekit.io/RifqiLukmansyah/download%20(7).png?updatedAt=1703210848214)
+# Result CNN Model 
 
+![acc](https://ik.imagekit.io/RifqiLukmansyah/download%20(7).png?updatedAt=1703210848214)
+![loss](https://ik.imagekit.io/RifqiLukmansyah/download%20(8).png?updatedAt=1703211214874)
+![confusionmatrix](https://ik.imagekit.io/RifqiLukmansyah/download%20(9).png?updatedAt=1703211301969)
+![result](https://ik.imagekit.io/RifqiLukmansyah/download%20(10).png?updatedAt=1703211342086)
 
