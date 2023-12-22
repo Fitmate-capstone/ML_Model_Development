@@ -88,4 +88,4 @@ We used the MediaPipe to access the code for the classifier and train the model.
 
 To count repetitions, we used another Colab algorithm to monitor the probability threshold of a target pose position.4
 
-!(https://ik.imagekit.io/RifqiLukmansyah/pushups-sample-out%20(2).mp4?updatedAt=1703210317710)
+![Example](https://ik.imagekit.io/RifqiLukmansyah/pushups-sample-out%20(2).mp4?updatedAt=1703210317710)
