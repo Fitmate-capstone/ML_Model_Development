@@ -1,7 +1,19 @@
 ## CNN Model 
+# Required Libraries
+The necessary libraries for running the gym equipment image classifier script are:
+1. numpy
+2. pandas
+3. scikit-learn
+4. tensorflow
+5. matplotlib
+
 # Instalation 
 1. Python Environment Setup: Ensure Python is installed.
-2. pip install numpy pandas scikit-learn tensorflow matplotlib
+2. Library Installation: Open the terminal or command prompt and execute the following command: 
+```
+pip install numpy pandas scikit-learn tensorflow matplotlib
+```
+
 # Usage
 
 # Data Preparation
