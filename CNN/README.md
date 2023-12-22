@@ -13,7 +13,23 @@ The necessary libraries for running the gym equipment image classifier script ar
 ```
 pip install numpy pandas scikit-learn tensorflow matplotlib
 ```
+Google Colab Notebook
+1. Requirements: Access to a Google Colab Notebook.
+2. Library Installation: Run the following command in a code cell:
+```
+!pip install numpy pandas scikit-learn tensorflow matplotlib
 
+```
+Google Colab Notebook
+1. Requirements: Access to a Kaggle Notebook environment.
+2. Library Installation: Execute the following command in a code cell if additional libraries are needed:
+```
+!pip install scikit-learn
+
+```
+# Notes
+1. For Google Colab and Kaggle, some libraries might already be pre-installed in the environment.
+2. Ensure the installation commands are run before importing or using the libraries in your code cells.
 # Usage
 
 # Data Preparation
