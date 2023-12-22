@@ -15,6 +15,7 @@ The necessary libraries for running the gym equipment image classifier script ar
 5. matplotlib
 
 # Instalation 
+Python local
 1. Python Environment Setup: Ensure Python is installed.
 2. Library Installation: Open the terminal or command prompt and execute the following command: 
 ```
